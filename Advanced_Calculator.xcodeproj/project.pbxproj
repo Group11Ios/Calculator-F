@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20A286CE20A41D20009D8287 /* MathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A286CB20A41CF5009D8287 /* MathParser.framework */; };
+		2094464B20A5289D008DB2A5 /* MathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2094464820A52897008DB2A5 /* MathParser.framework */; };
 		20BA19CB2099EEAB00214253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BA19CA2099EEAB00214253 /* AppDelegate.swift */; };
 		20BA19CD2099EEAB00214253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BA19CC2099EEAB00214253 /* ViewController.swift */; };
 		20BA19D02099EEAB00214253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BA19CE2099EEAB00214253 /* Main.storyboard */; };
@@ -16,16 +16,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20A286CA20A41CF5009D8287 /* PBXContainerItemProxy */ = {
+		2094464720A52897008DB2A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */;
+			containerPortal = 2094464220A52897008DB2A5 /* DDMathParser.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 559B3EF91B74063600000108;
 			remoteInfo = MathParser;
 		};
-		20A286CC20A41CF5009D8287 /* PBXContainerItemProxy */ = {
+		2094464920A52897008DB2A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */;
+			containerPortal = 2094464220A52897008DB2A5 /* DDMathParser.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 559B3F021B74063600000108;
 			remoteInfo = MathParserTests;
@@ -33,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DDMathParser.xcodeproj; sourceTree = "<group>"; };
+		2094464220A52897008DB2A5 /* DDMathParser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DDMathParser.xcodeproj; path = Advanced_Calculator/DDMathParser.xcodeproj; sourceTree = "<group>"; };
 		20BA19C72099EEAB00214253 /* Advanced_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advanced_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BA19CA2099EEAB00214253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20BA19CC2099EEAB00214253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,28 +48,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A286CE20A41D20009D8287 /* MathParser.framework in Frameworks */,
+				2094464B20A5289D008DB2A5 /* MathParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2094464320A52897008DB2A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2094464820A52897008DB2A5 /* MathParser.framework */,
+				2094464A20A52897008DB2A5 /* MathParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		20A286C420A41CF4009D8287 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */,
+				2094464220A52897008DB2A5 /* DDMathParser.xcodeproj */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		20A286C620A41CF5009D8287 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				20A286CB20A41CF5009D8287 /* MathParser.framework */,
-				20A286CD20A41CF5009D8287 /* MathParserTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		20BA19BE2099EEAA00214253 = {
@@ -152,8 +152,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 20A286C620A41CF5009D8287 /* Products */;
-					ProjectRef = 20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */;
+					ProductGroup = 2094464320A52897008DB2A5 /* Products */;
+					ProjectRef = 2094464220A52897008DB2A5 /* DDMathParser.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -164,18 +164,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		20A286CB20A41CF5009D8287 /* MathParser.framework */ = {
+		2094464820A52897008DB2A5 /* MathParser.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MathParser.framework;
-			remoteRef = 20A286CA20A41CF5009D8287 /* PBXContainerItemProxy */;
+			remoteRef = 2094464720A52897008DB2A5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		20A286CD20A41CF5009D8287 /* MathParserTests.xctest */ = {
+		2094464A20A52897008DB2A5 /* MathParserTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MathParserTests.xctest;
-			remoteRef = 20A286CC20A41CF5009D8287 /* PBXContainerItemProxy */;
+			remoteRef = 2094464920A52897008DB2A5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
