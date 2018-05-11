@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A286CE20A41D20009D8287 /* MathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A286CB20A41CF5009D8287 /* MathParser.framework */; };
 		20BA19CB2099EEAB00214253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BA19CA2099EEAB00214253 /* AppDelegate.swift */; };
 		20BA19CD2099EEAB00214253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BA19CC2099EEAB00214253 /* ViewController.swift */; };
 		20BA19D02099EEAB00214253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BA19CE2099EEAB00214253 /* Main.storyboard */; };
@@ -14,7 +15,25 @@
 		20BA19D52099EEAB00214253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BA19D32099EEAB00214253 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		20A286CA20A41CF5009D8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 559B3EF91B74063600000108;
+			remoteInfo = MathParser;
+		};
+		20A286CC20A41CF5009D8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 559B3F021B74063600000108;
+			remoteInfo = MathParserTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DDMathParser.xcodeproj; sourceTree = "<group>"; };
 		20BA19C72099EEAB00214253 /* Advanced_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advanced_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BA19CA2099EEAB00214253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20BA19CC2099EEAB00214253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,21 +44,40 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20BA19C42099EEAB00214253 /* Frameworks */ = {
+		20A286AA20A4056A009D8287 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A286CE20A41D20009D8287 /* MathParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20A286C420A41CF4009D8287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20A286C620A41CF5009D8287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A286CB20A41CF5009D8287 /* MathParser.framework */,
+				20A286CD20A41CF5009D8287 /* MathParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		20BA19BE2099EEAA00214253 = {
 			isa = PBXGroup;
 			children = (
 				20BA19C92099EEAB00214253 /* Advanced_Calculator */,
 				20BA19C82099EEAB00214253 /* Products */,
+				20A286C420A41CF4009D8287 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +110,8 @@
 			buildConfigurationList = 20BA19D92099EEAB00214253 /* Build configuration list for PBXNativeTarget "Advanced_Calculator" */;
 			buildPhases = (
 				20BA19C32099EEAB00214253 /* Sources */,
-				20BA19C42099EEAB00214253 /* Frameworks */,
 				20BA19C52099EEAB00214253 /* Resources */,
+				20A286AA20A4056A009D8287 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,12 +150,35 @@
 			mainGroup = 20BA19BE2099EEAA00214253;
 			productRefGroup = 20BA19C82099EEAB00214253 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 20A286C620A41CF5009D8287 /* Products */;
+					ProjectRef = 20A286C520A41CF5009D8287 /* DDMathParser.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				20BA19C62099EEAB00214253 /* Advanced_Calculator */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		20A286CB20A41CF5009D8287 /* MathParser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MathParser.framework;
+			remoteRef = 20A286CA20A41CF5009D8287 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		20A286CD20A41CF5009D8287 /* MathParserTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MathParserTests.xctest;
+			remoteRef = 20A286CC20A41CF5009D8287 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		20BA19C52099EEAB00214253 /* Resources */ = {
@@ -263,6 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XU6W5S6ZZV;
 				INFOPLIST_FILE = Advanced_Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.education.Advanced-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XU6W5S6ZZV;
 				INFOPLIST_FILE = Advanced_Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.education.Advanced-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +365,7 @@
 				20BA19DB2099EEAB00214253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
