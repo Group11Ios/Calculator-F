@@ -190,7 +190,7 @@ class ViewController: UIViewController {
         }
         else{
             stringMathematic = stringMathematic +  "π"
-            label.text = stringMathematic
+            label.text = stringMathematic 
         }
        
     }
